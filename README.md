@@ -4,8 +4,7 @@
 For more information; https://github.com/Winetricks/winetricks?tab=readme-ov-file
 
 2.1 next we make a wine prefix, to other to do use follow commands in the command prompt **NO SUDO**; 
-2.2; **WINEPREFIX=~/Games/RockstarAndRAGEPluginHook winetricks --force -q corefonts vcrun2015 vcrun2017 vcrun2019 win10**
-2.3; **WINEPREFIX=~/Games/RockstarAndRAGEPluginHook winetricks --force -q dotnet471 dotnet472 dotnet48 dotnet6 dotnet7 dotnet8 dotnet9**
+2.2; WINEPREFIX=~/Games/RockstarAndRAGEPluginHook winetricks --force vcrun2017 vcrun2019 vcrun2022 win10 dotnet48 dotnet6 dotnet7 dotnet8 dotnet9
 
 3.1 To other play RAGEPluginHook you need Lutris to play.
 For more information; https://lutris.net/downloads
@@ -61,6 +60,8 @@ FIX; You separate the Rockstar Game Launcher wine prefix and the RAGEPluginHook 
 
 ERROR 4; My settings do not save
 FIX; Go to ~/Games/RockstarAndRAGEPluginHook/drive_c/users/(you name)/Documents/Rockstar Games/GTA V/Settings.xml and change their you settings
+
+ERROR 5; I get after 4.7 follow error; winetricks verb 'arial' is already installed in '/home/administrator/Games/RockstarAndRAGEPluginHook' 
 
 For other error, you make a Issue in github
 ```
