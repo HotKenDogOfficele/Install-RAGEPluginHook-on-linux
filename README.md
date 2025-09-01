@@ -27,7 +27,7 @@ For more information; https://github.com/Vysp3r/ProtonPlus
 5.3 click on; Game options
 5.4 Add in the Working directory you install place for Grant theft auto V (Keep in mind if you installed Grant theft auto V you need to add the path for installed Grant Theft Auto V) (DO NOT WORK WITH STEAM FILES, ONLY ROCKSTAR)
 5.5 Click on; Save
-5.6 Go back to command promt and run this cmd; WINEPREFIX=~/Games/RockstarAndRAGEPluginHook winetricks --force -q vcrun2010 vcrun2013 vcrun2015 vcrun2017 vcrun2019 d3dcompiler_47 d3dx9 d3dx10 d3dx11_43 winhttp wininet xact corefront
+5.6 Go back to command promt and run this cmd; WINEPREFIX=~/Games/RockstarAndRAGEPluginHook winetricks --force -q d3dcompiler_47 d3dx9 d3dx10 d3dx11_43 winhttp wininet xact corefonts
 5.7 Click on; Play
 
 6.1 After you log-in, the system ask; Want to auto search for installed files, click; Yes
