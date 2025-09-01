@@ -3,8 +3,9 @@
 1.1 You need to install winetrick to performe it, Use you own distro installer to install winetrick, like "sudo apt install winetrick"
 For more information; https://github.com/Winetricks/winetricks?tab=readme-ov-file
 
-2.1 next we make a wine prefix, to other to do use follow commands in the command prompt **NO SUDO**; 
-2.2; WINEPREFIX=~/Games/RockstarAndRAGEPluginHook winetricks --force vcrun2017 vcrun2019 vcrun2022 win10 dotnet48 dotnet6 dotnet7 dotnet8 dotnet9
+2.1 next we make a wine prefix, to other to do use follow commands in the command prompt **NO SUDO**;
+2.2A; WINEPREFIX=~/Games/RockstarAndRAGEPluginHook winetricks --force -q dotnet48 dotnet6 dotnet7 dotnet8 dotnet9 
+
 
 3.1 To other play RAGEPluginHook you need Lutris to play.
 For more information; https://lutris.net/downloads
@@ -17,7 +18,7 @@ For more information; https://github.com/Vysp3r/ProtonPlus
 4.3 type follow; rockstar
 4.4 Click on; Rockstar Games Launcher
 4.5 Click what you prefered wine installion goes, recommanded is standalone.
-4.6 Change the installion directory to; ~/Games/RockstarAndRAGEPluginHook (where you installed you dlls and fronts with winetricks)
+4.6 Change the installion directory to; ~/Games/RockstarAndRAGEPluginHook (where you installed you dllswith winetricks)
 4.7 Click on; install 
 4.8 Follow the rockstar installer, use the default what it is. BUT uncheck; after the installer open rockstar. (Because you need to config some settings in lutris before you can use rockstar.)
 
@@ -27,6 +28,8 @@ For more information; https://github.com/Vysp3r/ProtonPlus
 5.4 Add in the Working directory you install place for Grant theft auto V (Keep in mind if you installed Grant theft auto V you need to add the path for installed Grant Theft Auto V) (DO NOT WORK WITH STEAM FILES, ONLY ROCKSTAR)
 5.5 Click on; Save
 5.6 Click on; Play
+
+2.2B; WINEPREFIX=~/Games/RockstarAndRAGEPluginHook winetricks --force -q vcrun2010 vcrun2013 vcrun2015 vcrun2017 vcrun2019 d3dcompiler_47 d3dx9 d3dx10 d3dx11_43 winhttp wininet xact corefront
 
 6.1 After you log-in, the system ask; Want to auto search for installed files, click; Yes
 6.1B; If you have the installed Grant Theft Auto V, Rockstar see automatic the files and he update only the vcredits and directx.
