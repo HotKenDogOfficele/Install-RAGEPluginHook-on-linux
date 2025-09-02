@@ -18,7 +18,7 @@ For more information; https://github.com/Vysp3r/ProtonPlus
 4.3 type follow; rockstar
 4.4 Click on; Rockstar Games Launcher
 4.5 Click what you prefered wine installion goes, recommanded is standalone.
-4.6 Change the installion directory to; ~/Games/RockstarAndRAGEPluginHook (where you installed you dllswith winetricks)
+4.6 Change the installion directory to; ~/Games/RockstarAndRAGEPluginHook (where you installed you dlls with winetricks)
 4.7 Click on; install 
 4.8 Follow the rockstar installer, use the default what it is. BUT uncheck; after the installer open rockstar. (Because you need to config some settings in lutris before you can use rockstar.)
 
@@ -55,15 +55,17 @@ ERROR 1; The .asi do not work.
 FIX; Install OPENIV. and you need to download the ASI packet on openiv. (Later on, i make also step tot step plan for that)
 
 ERROR 2; I get missing or corrupt .dll
-FIX; Check again that you use the good winetrick (2.2 and 2.3)
+FIX; Check again that you use the good winetrick (2.2 and 5.6)
 
 ERROR 3; RAGEPluginHook says launching game, but that game is not starting up or Rockstar Game Launcher
 FIX; You separate the Rockstar Game Launcher wine prefix and the RAGEPluginHook wine prefix. You need to have the same wine prefix in the; Game Options
 
 ERROR 4; My settings do not save
-FIX; Go to ~/Games/RockstarAndRAGEPluginHook/drive_c/users/(you name)/Documents/Rockstar Games/GTA V/Settings.xml and change their you settings
+FIX; Go to ~/Games/RockstarAndRAGEPluginHook/drive_c/users/(you name)/Documents/Rockstar Games/GTA V/Settings.xml and change their you settings OR You have enabled auto settings in RPH
 
 ERROR 5; I get after 4.7 follow error; winetricks verb 'arial' is already installed in '/home/administrator/Games/RockstarAndRAGEPluginHook' 
+FIX; You installed arail or corefront on step 2.2, That is not recommended. 
 
 For other error, you make a Issue in github
+And use your mind and skills. But do not repost it. I have many hours in this project, i don't wanna waste it.
 ```
