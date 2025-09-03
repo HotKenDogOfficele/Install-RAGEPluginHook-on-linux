@@ -60,6 +60,12 @@ WINEPREFIX=~/Games/RockstarAndRAGEPluginHook winetricks --force -q d3dcompiler_4
 
 After is done, proceed futher.
 
+Go to Wine configuration 
+
+(That is right side of play button)
+
+Change the Windows version to Windows 10, **NOT other version**
+
 Click on; Play
 ## Cofigure Rockstar launcher 
 
