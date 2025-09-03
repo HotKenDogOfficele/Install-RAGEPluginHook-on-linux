@@ -4,6 +4,7 @@
 1. Lutris | For more information; https://lutris.net/downloads
 2. Winetrick | For more information; https://github.com/Winetricks/winetricks?tab=readme-ov-file
 3. Lutris GE-Proton | For more information; https://github.com/Vysp3r/ProtonPlus
+4. During the winetrick and other installations you get pop-up that a .dll not get started. You can ignore it.
 
 ## Step tot step guide
 
@@ -40,15 +41,16 @@ Follow the rockstar installer, use the default what it is. BUT uncheck after the
 
 You get a pop up that rockstart game Launcher succesful is installed. and click op close **NOT** launch
 
-## Configure rockstar
+## Configure Rockstar
 Right click on rockstar game launcher and select configure.
 
 click on; Game options
 
 Add in the Working directory you install place for Grant theft auto V, keep this things in mind;
   1. If you installed Grant theft auto V you need to add the path for installed Grant Theft Auto V
-  2. If you installed GTAV selected the parent folder not GTAV folder it self. Like; ```/var/mnt/Rockstar/``` **NOT** ``` /var/mnt/Rockstar/Grand Theft Auto V Legacy/```
-  3. ATM, Do not work with steam GTAV files, please use the Rockstar Games Launcher to install GTAV
+  2. If you installed GTAV selected the parent folder not GTAV folder it self. Like; ```/var/ssd/Rockstar/``` **NOT** ``` /var/ssd/Rockstar/Grand Theft Auto V Legacy/```
+  3. For SSD or other media selected the folder where the media is connected; for me is that ```/var/ssd/```
+  4. ATM, Do not work with steam GTAV files, please use the Rockstar Games Launcher to install GTAV
 
 Click on; Save
 
@@ -67,15 +69,23 @@ Go to Wine configuration
 Change the Windows version to Windows 10, **NOT other version**
 
 Click on; Play
-## Cofigure Rockstar launcher 
+## Configure Rockstar Game launcher 
 
 After you log-in, the system ask; Want to auto search for installed files, click; Yes
 ### installed GTA V
-1. If you have the installed Grant Theft Auto V, Rockstar see automatic the files and he update only the vcredits and directx.
+1. If you have the installed Grant Theft Auto V, Rockstar see automatic the files and maybe update only the vcredits and directx.
 
 ### Did not installed GTA V
-1. If you dind't installed Grant Theft Auto V, install Grant Theft Auto V LEGANCY(NOT ENCHANTED).
-2. Select in the installer the path what you enter in Working directory (What you did in Confiure rockstar)
+1. Install Grant Theft Auto V LEGANCY(NOT ENCHANTED).
+2. Select in the installer the path what you enter in Working directory (What you did in Configure rockstar)
+
+Go to settings and disable next settings;
+  1. Load when computer starts
+  2. Minimize on close
+  3. BattleEye
+  4. Diable Windows key
+  5. (Go to GTAV left side)
+  6. And **enable** cloud saves (In game we gona disable but saved configuration like settings and save games been sync)
 
 After you installed OR updated you grant theft auto V. You need to start up first time. after you have good FPS on SINGLE PLAYER. You exit game and the rockstar launcher.
 
