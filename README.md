@@ -17,7 +17,7 @@ WINEPREFIX=~/Games/RockstarAndRAGEPluginHook winetricks --force -q dotnet48 dotn
 ## Change to GE-Proton
 Open lutris go to left sidebar, hover you mouse for wine and click on gear
 
-Change the Wine verion to GE-Proton.
+Change the Wine verion to Proton-GE Latest(NOT GE-Proton)
 And save it.
 
 ## Install Rockstar games
@@ -94,7 +94,8 @@ Download next things on internet in this order and put in the main folder of GTA
   1. ScripthookV + (Native trainer)
   2. RAGEPluginHook
   3. LSPDFR
-  (4. RAGEPluginHook persuit fix)
+  4. (RAGEPluginHook persuit fix)
+  5. Heapadjuster
 
 Right click on Rockstar game launcher, and click on duplicate
 
